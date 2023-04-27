@@ -1,32 +1,4 @@
 {
-<<<<<<< Updated upstream
-  "name": "node.js-cli",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index",
-    "start:dev": "nodemon index",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/YanaLiz/node.js-CLI.git"
-  },
-  "author": "Yana",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/YanaLiz/node.js-CLI/issues"
-  },
-  "homepage": "https://github.com/YanaLiz/node.js-CLI#readme",
-  "devDependencies": {
-    "nodemon": "^2.0.22"
-  },
-  "dependencies": {
-    "nanoid": "^4.0.2",
-    "shortid": "^2.2.16",
-    "yargs": "^17.7.1"
-=======
   "name": "template",
   "version": "0.0.0",
   "private": true,
@@ -54,6 +26,5 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "5.2.0",
     "nodemon": "2.0.15"
->>>>>>> Stashed changes
   }
 }
