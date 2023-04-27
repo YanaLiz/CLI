@@ -1,14 +1,3 @@
-<<<<<<< Updated upstream
-# node.js-CLI
-Увесь список контактів в таблиці:
-https://monosnap.com/file/Cc7dcJd563JiJCxplD9DAudl44IpuG ,
-отримання контакта по id:
-https://monosnap.com/file/5XTEREBvAjfDFDwWmMgTYk49Y8w36Q ,
-додавання контакта:
-https://monosnap.com/file/PrNfoF1Rpps2CdG2cXXYzllkM3vCjC ,
-видалення конткта:
-https://monosnap.com/file/2dACb8DNudLOgsRgkSSURegkPzXuZ9
-=======
 ## GoIT Node.js Course Template Homework
 
 Виконайте форк цього репозиторію для виконання домашніх завдань (2-6)
@@ -40,4 +29,3 @@ https://monosnap.com/file/2dACb8DNudLOgsRgkSSURegkPzXuZ9
 - `npm run start:dev` &mdash; старт сервера в режимі розробки (development)
 - `npm run lint` &mdash; запустити виконання перевірки коду з eslint, необхідно виконувати перед кожним PR та виправляти всі помилки лінтера
 - `npm lint:fix` &mdash; та ж перевірка лінтера, але з автоматичними виправленнями простих помилок
->>>>>>> Stashed changes
