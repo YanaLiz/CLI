@@ -3,7 +3,6 @@ const mongoose = require("mongoose")
 // YH3ipxD7pi.WZYq
 
 
-
 mongoose.set("strictQuery", true)
 
 const DB_HOST = "mongodb+srv://Yana:YH3ipxD7pi.WZYq@cluster0.lo7i8zv.mongodb.net/db-contacts?retryWrites=true&w=majority"
