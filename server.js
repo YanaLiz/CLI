@@ -4,7 +4,7 @@ const {DB_HOST} = process.env;
 
 mongoose.set("strictQuery", true)
 
-console.log(DB_HOST)
+// console.log(DB_HOST)
 
 mongoose.connect(DB_HOST)
   .then(() => {
