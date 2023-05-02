@@ -3,7 +3,7 @@ const fs = require("fs/promises");
 const path = require("path");
 const shortid = require('shortid');
 
-// console.log(shortid.generate());
+
 
 const contactsPath = path.join(__dirname, "contacts.json");
 

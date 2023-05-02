@@ -1,12 +1,13 @@
 
 
-const ctrlWrapper = getAll => {
+const ctrlWrapper = (method) => {
   const func = async(req, res, next) => {
     try { 
-      await getAll(req, res, next)
+      await method(req, res, next)
     } catch (error) {
       next(error);
     }
+ 
   }
   return func;
 }

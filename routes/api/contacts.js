@@ -1,15 +1,17 @@
 const express = require('express')
-const ctrl = require("../../controllers/contacts")
+const  ctrl  = require("../../controllers/contacts/index");
+
+
 const { validateBody, isValidId } = require("../../middlewares")
-const router = express.Router()
+const router = express.Router();
 const { schemas } = require("../../models/contact");
+
 
 router.get('/', ctrl.getAll)
 
 router.get('/:contactId', isValidId, ctrl.getById)
 
 router.post('/', validateBody(schemas.addSchema), ctrl.add)
-
 
 router.delete('/:contactId',  isValidId, ctrl.deleteById)
 
