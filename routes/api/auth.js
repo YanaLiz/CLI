@@ -12,5 +12,6 @@ router.post("/logout", authenticate, ctrl.logout);
 router.patch('/avatars', authenticate, upload.single('avatar'), ctrl.getAvatar);
 
 
+
 module.exports = router;
 
