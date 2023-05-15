@@ -6,7 +6,10 @@ const updateFavorite = async (req, res) => {
   const { contactId } = req.params;
    const { id } = req.user;
   const result = await Contact.findByIdAndUpdate(
-    { _id: contactId, owner: id },
+    {
+      _id: contactId,
+      owner: id
+    },
     { ...req.body });
     console.log(result);
     if (!result) {

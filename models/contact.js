@@ -33,13 +33,13 @@ contactSchema.post("save", handleMongooseError);
 const addSchema = Joi.object({
  name: Joi.string().required(),
   email: Joi.string()
-    .email({
-      minDomainSegments: 2,
-      tlds: { allow: ["com", "net"] },
-    })
+    // .email({
+    //   minDomainSegments: 2,
+    //   tlds: { allow: ["com", "net"] },
+    // })
     .required(),
   phone: Joi.string()
-    .regex(/^(\()?\d{3}(\))?(-|\s)?\d{3}(-|\s)\d{4}$/)
+    // .regex(/^(\()?\d{3}(\))?(-|\s)?\d{3}(-|\s)\d{4}$/)
     .required(),
   favorite: Joi.boolean(),
 })

@@ -7,7 +7,8 @@ const getAll = async (req, res) => {
     const skip = (page - 1) * limit;
     const result = await Contact.find(
         { owner }, "-createdAt -updatedAt",
-        { skip, limit })
+        { skip, limit }
+    )
         .populate("owner", "name email"
         );
     res.status(200).json(result)
